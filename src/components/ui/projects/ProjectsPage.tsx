@@ -84,7 +84,7 @@ export default function ProjectsPage() {
           Projects & Case Studies
         </h2>
         <p className='font-sora  md:text-lg text-base font-medium text-center text-white/90'>
-          A curated collection of the work I’ve done as a freelancer.
+          A collection of the work I’ve done as a freelancer.
         </p>
       </div>
 

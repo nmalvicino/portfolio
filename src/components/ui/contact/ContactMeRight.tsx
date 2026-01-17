@@ -33,7 +33,7 @@ export default function ContactForm() {
       <input
         required
         name='name'
-        placeholder='Tu nombre'
+        placeholder='Name'
         className='w-full p-2 rounded-md border border-gray-300 bg-white/90 shadow-sm focus:outline-none focus:ring-2 focus:ring-surface-development focus:border-surface-ring-surface-development  transition placeholder:text-gray-400 text-sm'
       />
       <input
@@ -46,7 +46,7 @@ export default function ContactForm() {
         required
         name='message'
         rows={4}
-        placeholder='Tu mensaje'
+        placeholder='Your message'
         className='w-full p-2 rounded-md border border-gray-300 bg-white/90 shadow-sm focus:outline-none focus:ring-2 focus:ring-surface-development focus:border-surface-ring-surface-development  transition placeholder:text-gray-400 text-sm'
       />
 
