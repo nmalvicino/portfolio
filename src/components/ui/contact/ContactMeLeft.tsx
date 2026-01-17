@@ -27,7 +27,7 @@ export default function ContactMeLeft() {
           rel='noopener noreferrer'
           className='hover:opacity-80 transition'
         >
-          <img src='/icons/linkedin.svg' alt='LinkedIn' className='w-6 h-6' />
+          <img src='icons/linkedin.svg' alt='LinkedIn' className='w-6 h-6' />
         </a>
         <a
           href='https://github.com/nmalvicino'
@@ -35,7 +35,7 @@ export default function ContactMeLeft() {
           rel='noopener noreferrer'
           className='hover:opacity-80 transition'
         >
-          <img src='/icons/github.svg' alt='GitHub' className='w-6 h-6' />
+          <img src='icons/github.svg' alt='GitHub' className='w-6 h-6' />
         </a>
         <a
           href='https://www.behance.net/nataliamalvicino'
@@ -43,7 +43,7 @@ export default function ContactMeLeft() {
           rel='noopener noreferrer'
           className='hover:opacity-80 transition'
         >
-          <img src='/icons/behance.svg' alt='Behance' className='w-6 h-6' />
+          <img src='icons/behance.svg' alt='Behance' className='w-6 h-6' />
         </a>
       </div>
     </div>

@@ -59,7 +59,7 @@ export default function HeroBanner() {
                 transition={{ duration: 1.2, ease: 'easeInOut' }}
                 className='absolute inset-0 w-full h-full object-cover'
               />
-            ) : null
+            ) : null,
           )}
         </AnimatePresence>
       </div>
@@ -98,7 +98,7 @@ export default function HeroBanner() {
               life
             </span>
             <img
-              src='/diamond.svg'
+              src='diamond.svg'
               alt='diamond'
               className='w-3 h-3 md:w-5 md:h-5 translate-y-2 md:translate-y-5'
             />

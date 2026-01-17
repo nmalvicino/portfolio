@@ -6,7 +6,7 @@ export default function Footer() {
         <div className='flex flex-col sm:flex-row justify-between items-center gap-4'>
           {/* Left: Logo */}
           <div className='flex items-center gap-2'>
-            <img src='/icons/logo-nm.svg' alt='Logo' className='h-24 w-auto' />
+            <img src='icons/logo-nm.svg' alt='Logo' className='h-24 w-auto' />
           </div>
 
           {/* Right: Signature */}

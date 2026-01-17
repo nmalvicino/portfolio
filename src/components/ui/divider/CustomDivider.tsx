@@ -6,7 +6,7 @@ export default function CustomDivider() {
       {/* Desktop SVG */}
       <div className='hidden md:block w-full'>
         <img
-          src='/dividers/divider-desktop.svg'
+          src='dividers/divider-desktop.svg'
           alt='section divider'
           className='w-full h-auto'
           style={{ display: 'block' }}
@@ -16,7 +16,7 @@ export default function CustomDivider() {
       {/* Mobile SVG */}
       <div className='block md:hidden w-full overflow-hidden'>
         <img
-          src='/dividers/divider-mobile.svg'
+          src='dividers/divider-mobile.svg'
           alt='section divider'
           className='w-full h-auto'
           style={{ display: 'block' }}

@@ -34,7 +34,7 @@ export const Navbar = () => {
           {/* Logo */}
           <a href='#home'>
             <img
-              src='/icons/logo-nm.svg'
+              src='icons/logo-nm.svg'
               alt='Logo'
               className='md:h-16 h-14 w-auto cursor-pointer'
             />
@@ -101,7 +101,7 @@ export const Navbar = () => {
                 className={cn(
                   item.isCTA
                     ? 'w-full px-6 py-2 rounded-full font-sora text-sm font-semibold text-black bg-white hover:bg-gray-200 transition'
-                    : 'text-white dark:text-gray-300 hover:underline'
+                    : 'text-white dark:text-gray-300 hover:underline',
                 )}
               >
                 {item.name}

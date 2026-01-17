@@ -68,7 +68,7 @@ export default function SkillsTabs() {
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:gap-6 gap-12 px-8 text-left text-ink'>
                       <div className='flex items-start gap-4'>
                         <img
-                          src='/icons/henry.svg'
+                          src='icons/henry.svg'
                           alt='Henry'
                           className='w-6 h-6 mt-1'
                         />
@@ -83,7 +83,7 @@ export default function SkillsTabs() {
                       </div>
                       <div className='flex items-start gap-4'>
                         <img
-                          src='/icons/ed-it.svg'
+                          src='icons/ed-it.svg'
                           alt='Ed IT'
                           className='w-6 h-6 mt-1'
                         />
@@ -125,16 +125,16 @@ export default function SkillsTabs() {
         {/* RIGHT */}
         <div className='flex flex-wrap justify-center lg:flex-col items-start gap-2 md:gap-4 md:mt-16 '>
           {[
-            { label: 'Curriculum', file: '/cv-natalia-malvicino.pdf' },
+            { label: 'Curriculum', file: 'cv-natalia-malvicino.pdf' },
             {
               label: 'Full-Stack Certificate',
-              file: '/fullstack-certificate.jpg',
+              file: 'fullstack-certificate.jpg',
             },
             {
               label: 'Various Certificates',
-              file: '/certifications-it-natalia-malvicino.pdf',
+              file: 'certifications-it-natalia-malvicino.pdf',
             },
-            { label: 'SET Certificate', file: '/set-natalia-malvicino.pdf' },
+            { label: 'SET Certificate', file: 'set-natalia-malvicino.pdf' },
           ].map((item) => (
             <a
               key={item.label}
@@ -144,7 +144,7 @@ export default function SkillsTabs() {
             >
               {item.label}
               <img
-                src='/icons/download.svg'
+                src='icons/download.svg'
                 alt='Download'
                 className='w-4 h-4'
               />

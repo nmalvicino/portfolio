@@ -15,7 +15,7 @@ export const services = [
     details:
       'I use technologies like React, Next.js, Tailwind and TypeScript to build intuitive, fast and responsive interfaces. I focus on performance, accessibility and a visual experience aligned with your brand.',
     icon: IconCode,
-    image: '/images/services/front-end-dev.jpg',
+    image: 'images/services/front-end-dev.jpg',
   },
   {
     id: 'website-design',
@@ -24,7 +24,7 @@ export const services = [
     details:
       'I create visual designs that guide users with clarity, consistency and purpose. Every section is designed strategically to align with your goals, ensuring the experience remains impactful across all devices.',
     icon: IconWorld,
-    image: '/images/services/website-design.jpg',
+    image: 'images/services/website-design.jpg',
   },
   {
     id: 'ux-ui',
@@ -33,7 +33,7 @@ export const services = [
     details:
       'I analyze your current site and propose practical solutions to enhance navigation, visual hierarchy and the overall user experience. From redesigning pain points to polishing microinteractions, I help your site work better and feel smoother.',
     icon: IconLayout,
-    image: '/images/services/ux-ui.jpg',
+    image: 'images/services/ux-ui.jpg',
   },
   {
     id: 'graphic-design',
@@ -42,7 +42,7 @@ export const services = [
     details:
       'From social media posts to flyers, packaging, or presentations, I design visuals that communicate your message with clarity and style. I focus on creating a cohesive and attractive visual identity.',
     icon: IconBrush,
-    image: '/images/services/graphic-design.jpg',
+    image: 'images/services/graphic-design.jpg',
   },
   {
     id: 'branding',
@@ -51,6 +51,6 @@ export const services = [
     details:
       'I develop visual identities that express your brand’s essence. From logo design to color palettes, typography and visual tone, I help build a consistent and distinctive brand universe.',
     icon: IconPalette,
-    image: '/images/services/branding.jpg',
+    image: 'images/services/branding.jpg',
   },
 ];
