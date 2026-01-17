@@ -23,7 +23,7 @@ export default function ProjectsPage() {
     const toolsData = project.tools.map((tool, index) => ({
       id: index,
       name: tool,
-      image: `/icons/${tool.toLowerCase().replace(/\s+/g, '-')}.svg`,
+      image: `icons/${tool.toLowerCase().replace(/\s+/g, '-')}.svg`,
     }));
 
     return {
@@ -126,10 +126,10 @@ export default function ProjectsPage() {
                   {/* View on Behance Button */}
                   {(() => {
                     const selectedProject = projects.find((project) =>
-                      project.images?.includes(selectedImage)
+                      project.images?.includes(selectedImage),
                     );
                     const imageIndex = selectedProject?.images?.indexOf(
-                      selectedImage || ''
+                      selectedImage || '',
                     );
                     const behanceLink =
                       selectedProject?.behanceLinks?.[imageIndex || 0];

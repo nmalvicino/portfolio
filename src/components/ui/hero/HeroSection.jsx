@@ -52,7 +52,7 @@ export default function HeroBanner() {
             selected === key ? (
               <motion.img
                 key={key}
-                src={`/backgrounds/${key}.jpg`}
+                src={`backgrounds/${key}.jpg`}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 0.15 }}
                 exit={{ opacity: 0 }}

@@ -4,11 +4,11 @@ export default function ContactMeLeft() {
   return (
     <div className='flex-1 flex flex-col justify-center items-start space-y-6 p-6 text-white'>
       <h2 className='font-epilogue text-3xl md:text-4xl font-bold text-center text-white'>
-        Contacto
+        Contact me
       </h2>
       <p className='font-epilogue text-base font-medium'>
-        ¿Listos para colaborar? Estoy disponible para entrevistas, propuestas o
-        dudas.
+        I'm currently open to new projects, collaborations or just chatting
+        about ideas. If you think we’d be a good fit, feel free to reach out.
       </p>
       <div>
         <a
@@ -17,7 +17,7 @@ export default function ContactMeLeft() {
           rel='noopener noreferrer'
           className='inline-block px-8 py-2 font-epilogue border font-semibold text-sm bg-white text-ink/80 rounded-md hover:bg-transparent hover:border-ink-alt hover:text-ink-alt  transition'
         >
-          Solicitar entrevista
+          Book a meeting
         </a>
       </div>
       <div className='flex items-center space-x-6 pt-2'>
