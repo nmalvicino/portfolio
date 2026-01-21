@@ -82,7 +82,6 @@
   }
 }
 
-/* Variantes de color */
 .hand-highlight-yellow::before {
   background: linear-gradient(135deg, #fef08a, #fde047);
 }
