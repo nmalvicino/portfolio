@@ -21,13 +21,22 @@ export const projects = [
   {
     id: 'p2',
     title: '2024',
-    subtitle: 'PROVEN Skincare',
-    description:
-      'As a Technical Designer and Web Developer I supported the PROVEN & Noteworthy teams for two years, blending front-end development with design thinking. I built responsive UI components, improved layouts and developed custom features using React, Sanity, Shopify, and Builder.io. I also designed landing pages, emails and product visuals that enhanced UX and aligned with the brand’s science-backed identity.',
+    subtitle: 'PROVEN Skincare Group',
+    description: `At PROVEN/Noteworthy I worked for two years as a Technical Designer and Front-End Developer, focusing on:
+
+• Development of reusable React components
+• Integration with RESTful APIs to fetch and display dynamic content
+• Implementation of responsive layouts using Material UI and Tailwind
+• CMS-driven page building in Sanity, Shopify and Builder.io
+• Dynamic forms and user interaction features
+• Performance optimization and SEO improvements
+
+In addition to development I also designed landing pages, product layouts and marketing assets, contributing to both the visual direction and overall user experience of the brand.`,
+
     tags: [
-      'UX/UI Improvement',
       'Front-end Development',
       'Website Design',
+      'UX/UI Improvement',
       'Graphic Design',
     ],
     tools: [

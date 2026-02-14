@@ -50,7 +50,9 @@ export default function ProjectsPage() {
             ))}
           </div>
 
-          <p className='font-epilogue text-white/80 '>{project.description}</p>
+          <p className='font-epilogue text-white/80 whitespace-pre-line '>
+            {project.description}
+          </p>
 
           {/* Imágenes */}
           <div className='grid grid-cols-2 md:flex md:flex-wrap gap-4 mt-2'>
